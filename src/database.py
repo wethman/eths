@@ -2,8 +2,8 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-SQLALCHEMY_DATABASE_URL = "postgresql://ytepmbbogipxds:3f36eee57816e58c506884431cc7da1469a99df22db990313bf9802290b78ed2@ec2-3-226-163-72.compute-1.amazonaws.com:5432/d2d98alpgb9ogf"
-# SQLALCHEMY_DATABASE_URL = "postgresql://user:password@postgresserver/db"
+SQLALCHEMY_DATABASE_URL = "postgresql://oiycvtfwhxngou:3de927a50541e4167625454cf645e7e29c37ac201bb6dce8254eef593f86d7b3@ec2-44-205-41-76.compute-1.amazonaws.com:5432/d2lq4sjklblcag"
+# SQLALCHEMY_DATABASE_URL = ://user:password@postgresserver/db"
 
 engine = create_engine(
     SQLALCHEMY_DATABASE_URL
